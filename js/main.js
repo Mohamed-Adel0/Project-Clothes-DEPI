@@ -2,7 +2,7 @@
 const singalProducts = [
     {
       id: 1,
-      image: "../Picture/Footer_logo.png",
+      image: "./Picture/Footer_logo.png",
       paragraph:
         "Duis semper mauris vitae purus rhoncus suscipit. Nunc dictum dapibus tellus, at viverra risus pharetra id. Nulla facilisi. Ut mollis et augue non gravida.",
     },
@@ -13,28 +13,28 @@ const Products = [
     title: "Havanna shirt",
     paragraph: "CLOTHINGS, SHIRTS",
     Salle: 14.99,
-    imageOne: "../Picture/1.jpg",
+    imageOne: "./Picture/1.jpg",
   },
   {
     id: 2,
     title: "Black glasses",
     paragraph: "ACCESSORIES",
     Salle: 8.99,
-    imageOne: "../Picture/2.jpg",
+    imageOne: "./Picture/2.jpg",
   },
   {
     id: 3,
     title: "Black glasses",
     paragraph: "ACCESSORIES",
     Salle: 10.99,
-    imageOne: "../Picture/3.jpg",
+    imageOne: "./Picture/3.jpg",
   },
   {
     id: 4,
     title: "Simple hat",
     paragraph: "ACCESSORIES",
     Salle: 12.99,
-    imageOne: "../Picture/4.jpg",
+    imageOne: "./Picture/4.jpg",
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const Products = [
     paragraph: "ACCESSORIES",
 
     Salle: 10.99,
-    imageOne: "../Picture/5.jpg",
+    imageOne: "./Picture/5.jpg",
   },
   {
     id: 6,
@@ -50,29 +50,29 @@ const Products = [
     paragraph: "ACCESSORIES",
 
     Salle: 7.99,
-    imageOne: "../Picture/6.jpg",
+    imageOne: "./Picture/6.jpg",
   },
   {
     id: 7,
     title: "Fantasy pants",
     paragraph: "ACCESSORIES",
     Salle: 15.99,
-    imageOne: "../Picture/7.jpg",
+    imageOne: "./Picture/7.jpg",
   },
   {
     id: 8,
     title: "Shoulder bag",
     paragraph: "ACCESSORIES",
     Salle: 20.99,
-    imageOne: "../Picture/2.jpg",
+    imageOne: "./Picture/2.jpg",
   },
 ];
 const FooterProd = [
   {
     id: 2,
     title: "Products",
-    image1: "../Picture/Item_10-660x660.jpg",
-    image2: "../Picture/Item_11-660x660.jpg",
+    image1: "./Picture/Item_10-660x660.jpg",
+    image2: "./Picture/Item_11-660x660.jpg",
     detalis: "Fantasy pants",
     delet: "£25.99",
     sale: "£15.99",
@@ -82,8 +82,8 @@ const FooterProd = [
   {
     id: 3,
     title: "Top Rated Products",
-    image1: "../Picture/Item_9-660x660.jpg",
-    image2: "../Picture/Item_3-660x660.jpg",
+    image1: "./Picture/Item_9-660x660.jpg",
+    image2: "./Picture/Item_3-660x660.jpg",
     detalis: "Havanna shirt",
     delet: "£21.99",
     sale: "£11.99",
