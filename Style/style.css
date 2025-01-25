@@ -1,0 +1,582 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #242424;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+:root {
+  --brown: #f6514f;
+  --white: #fff;
+  --Size-paragprah: 16px;
+  --Size-h3: 18px;
+  --Size-btn: 16px;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+/* Here Style For Header Related By Logo */
+header {
+  width: 100%;
+  height: 18vh;
+}
+header .image-logo {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+header nav,
+.ads {
+  width: 86%;
+  height: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  /* padding: 0 15px; */
+}
+header .ads {
+  width: 100%;
+}
+header .navbar-fixed {
+  position: fixed;
+  z-index: 99;
+  background-color: #fff;
+  height: 7vh;
+  width: 86%;
+  transition: 1s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+.change-scroll-navbar {
+  height: 10vh !important;
+  width: 100% !important;
+  transition: 0.6s;
+  padding: 0 15px;
+}
+header .ads {
+  /* width: 100%; */
+  height: 60%;
+}
+header .ads img {
+  width: 100%;
+  height: 100%;
+}
+header .icons {
+  width: auto;
+  height: 100%;
+  display: flex;
+  gap: 10px;
+}
+header .link-header {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+/* Here Related By Page Home Products */
+.parent {
+  width: 100%;
+  height: 100vh;
+  min-height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  position: relative;
+}
+.parent .menu,
+.page-ads {
+  width: 8%;
+  height: auto;
+  /* border: 3px solid gold; */
+}
+/* ~~~~~~~~~~~~~~~~ */
+.icons-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  position: relative;
+  background-color: transparent;
+}
+
+.icon-item i {
+  font-size: 20px;
+  margin-right: 10px;
+  background-color: transparent;
+}
+
+.icon-name {
+  display: none;
+  font-size: 18px;
+  color: #333;
+  position: absolute;
+  top: 0;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  left: 100%;
+  margin-left: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  /* border: 3px solid gold; */
+}
+
+.icon-item:hover .icon-name {
+  display: inline-block;
+  opacity: 1;
+}
+
+/* ~~~~~~~~~~~~ */
+
+.parent .adsx {
+  position: absolute;
+  /* width: 100%; */
+  /* height: 50%; */
+  /* border: 3px solid brown; */
+  top: 0;
+  bottom: 0;
+}
+.parent .page-ads img {
+  width: 100%;
+  height: 100% !important;
+}
+.parent .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.parent .card {
+  width: 280px;
+  height: 70%;
+}
+.parent .image {
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+}
+.parent .paragraph {
+  height: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 0;
+}
+.parent .sallary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  /* border: 3px solid brown; */
+}
+.parent .sallary:nth-child(1) {
+  flex-direction: column;
+  gap: 7px;
+}
+.parent .sallary p {
+  font-size: var(--Size-paragprah);
+  color: #242424 !important;
+}
+.parent .paragraph h3 {
+  font-size: var(--Size-h3);
+}
+.parent .paragraph p {
+  font-size: var(--Size-paragprah);
+}
+.parent .sallary button,
+a {
+  padding: 10px 15px;
+  background-color: var(--brown);
+  color: var(--white);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Here Related By Style Chat */
+.chat{
+    position: fixed;
+    inset: 0;
+    background-color: #171a1c8e;
+    z-index: 999;
+    display: none;
+    justify-content: flex-end;
+}
+.chat .container {
+    width: 30%;
+    height: 100%;
+    background-color: #f9dfdc;
+    transition: 1s;
+}
+.chat form{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+}
+.chat .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+}
+.chat .top button{
+    background-color: transparent;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.chat .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+    gap: 5px;
+}
+#suggestions {
+    position: fixed;
+    /* display: flex; */
+    flex-wrap: wrap;
+    gap: 10px;
+    right: 30%;
+    width: 25%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #fff;
+    transition: .2s;
+  }
+#suggestions h3{
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: #f6514f 1px solid;
+}
+  .suggested-word {
+    padding: 8px 16px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .suggested-word:hover {
+    background-color: #e0e0e0;
+  }
+  
+.chat .bottom input {
+    width: 85%;
+    background-color: transparent;
+    padding: 7px 10px;
+    color: #000;
+    border: #f6514f 1px solid;
+    outline-color: #f6514f;
+    border-radius: 5px;
+}
+.chat .bottom button{
+    width: 15%;
+    padding: 9px 0;
+    font-size: 14px;
+    background-color: #f6514f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+#chat-box{
+    overflow: hidden;
+}
+.chat .box-chat:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+    /* border: 3px solid ; */
+}
+.chat .same-style{
+    /* border: 3px solid brown; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 15px;
+    gap: 10px;
+}
+.chat .same-style button{
+    font-size: 15px;
+    background-color: #f6514f;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    width: 35px !important;
+    height: 35px;
+    border-radius: 50%;
+    color: var(--white) !important;
+}
+.chat .same-style img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.chat .bot{
+    /* border: 3px solid brown; */
+    text-align: end;
+    justify-content: flex-end;
+
+}
+.chat p{
+    color: #000 !important;
+}
+.all-containers {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+}
+.container-header {
+    width: 100%;
+    height: 7%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.103);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.container:hover {
+    background-color: #ffffff;
+    transition: .6s;
+}
+
+
+/* Here Related By Style Footer */
+.footer {
+  width: 100%;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../Picture//Footer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer .container {
+  width: 100%;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #242424c2;
+}
+.footer .cards {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 15px 0;
+}
+.footer .card {
+  width: 380px;
+  height: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer .card p {
+  font-size: 18px !important;
+  color: #fff !important;
+}
+.footer.card .box {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.footer .card .box:nth-child(2) {
+  /* padding: 5px 0; */
+  border-bottom: 1px solid #ffffff6e !important;
+}
+.footer .box .img {
+  width: 25%;
+  height: 100%;
+}
+.footer .box .img img {
+  width: 75%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.footer h3,
+h1,
+p,
+h4,
+h5,
+del {
+  color: var(--white) !important;
+  font-family: sans-serif;
+}
+.footer .card .text {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer.card .text h4 {
+  font-size: 17px !important;
+  color: #fff !important;
+}
+.footer .card .text .sale {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: #fff !important;
+  gap: 15px;
+}
+.footer .sale h5 {
+  font-size: 15px;
+}
+.footer .card h3 {
+  font-size: 22px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+}
+
+.footer .about {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .about h2 {
+  font-size: 17px;
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.footer .about span {
+  color: #f6514f;
+  letter-spacing: 1px;
+}
+
+/* Here for Media Query */
+@media (max-width: 1024px) {
+  .footer .card {
+    width: 290px;
+  }
+  .footer .cards {
+    justify-content: center !important;
+    align-items: flex-start !important;
+    gap: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .footer .card {
+    width: 210px;
+  }
+  #suggestions{
+    width: 100%;
+    left: 0;
+    height: 20%;
+    overflow-y: auto;
+    scrollbar-width: 1;
+    bottom: 0;
+  }
+  .parent .menu , .page-ads{
+    width: 60px !important;
+  }
+  .chat .container{
+    width: 100%;
+    height: 80%;
+  }
+  .footer .card p {
+    font-size: 15px !important;
+  }
+  .footer.cards {
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+  }
+}
+@media (max-width: 425px) {
+  .footer .card {
+    width: 100%;
+  }
+  .footer .card p {
+    font-size: 15px !important;
+  }
+  .footer .cards {
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+  }
+}
+/* End for Media Query */
+
+/* Here For Hover */
+.card .image img:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+  .parent {
+    height: auto;
+  }
+}
+@media (max-width: 1200px) {
+  .parent {
+    height: auto;
+  }
+  .parent .card {
+    margin: auto;
+  }
+}

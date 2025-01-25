@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Header with Logo and Icons -->
+    <header>
+        <nav>
+           <div class="navbar-fixed" id="navbar">
+            <img class="image-logo" src="./Picture/Logo_shop.png" alt="Error">
+            <div class="icons">
+                <a class="link-header" href="./login.html"><i class="fa-regular fa-user"></i></a>
+                <a class="link-header" href="./cart.html"><i class="fa-brands fa-opencart"></i></a>
+                <button class="link-header" id="containerchat"><i class="fa-solid fa-headset"></i></button>
+            </div>
+           </div>
+        </nav>
+        <div class="ads">
+            <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHJiaDE3cG0zZGxoaGtudW41cGsxYzA0dXNkOWl5YXFzNjVvcDZxYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MD0svLSDeudszrNrp0/giphy.gif" 
+         alt="Animated GIF" 
+         />
+        </div>
+    </header>
+    <!-- Main Content for Products Page -->
+    <div class="parent">
+        <div class="menu">
+            <ul class="icons-list">
+                <li>
+                    <a href="#" class="icon-item">
+                        <i class="fas fa-home"></i>
+                        <span class="icon-name">Home</span>
+                    </a>
+                </li>
+             
+                <li>
+                    <a href="./login.html" class="icon-item">
+                        <i class="fa-regular fa-user"></i>
+                        <span class="icon-name">Login</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./Payment.html" class="icon-item">
+                        <i class="fa-regular fa-credit-card"></i>
+                        <span class="icon-name">Payment</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./cart.html" class="icon-item">
+                        <i class="fa-brands fa-opencart"></i>
+                        <span class="icon-name">Cart</span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="./contact.html" class="icon-item">
+                        <i class="fa-regular fa-id-badge"></i>
+                        <span class="icon-name">Contact</span>
+                    </a>
+                </li>
+            </ul>
+        
+        </div>
+        <div class="container" id="container">  
+        </div>
+        <div class="page-ads">
+            <div class="adsx">
+            <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGRzaG0weDFnankwbTRzamQzdGtncXU2ZjYzaGJvdHN3cTl0MmY1ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3HpSslnzl7mKx0Yzhi/giphy.gif" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Footer Section -->
+    <div class="footer">
+        <div class="container">
+          <div class="cards" id="cards">
+          </div>
+          <div class="about">
+            <h2>
+              Copyright ©2025 All rights reserved | This template is made with
+              by <span>Mohamed-adel</span>
+            </h2>
+          </div>
+        </div>
+    </div>
+    <!-- Chat Section -->
+    <div class="chat" id="chat">
+        <div class="container">
+            <div id="suggestions">
+            </div>
+            <form id="chat-form">
+              <div class="box-chat top">
+                <p>Call Center</p>
+                <button type="button" id="closeElement">X</button>
+              </div>
+              <div class="box-chat" id="chat-box">
+                <!-- Chat Related Elements -->
+              </div>
+              <div class="box-chat bottom">
+                <input type="text" id="user-input" placeholder="What are u thinking?">
+                <button type="submit">Send</button>
+              </div>
+            </form>
+          </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
