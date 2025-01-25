@@ -1,8 +1,8 @@
-![image](https://github.com/user-attachments/assets/a5c06c6e-9d79-4ad5-a889-55797aedebac)This project is just a training from DEPI, Digital Egypt Pioneers, affiliated with the Ministry of Communications.
-
+This project is just a training from DEPI, Digital Egypt Pioneers, affiliated with the Ministry of Communications.
 Here is an image of the project and the website link. 👉 https://mohamed-adel0.github.io/Project-Clothes-DEPI/
 
-![image](https://github.com/user-attachments/assets/cf966773-5c0a-4b1d-9463-9e7f4dc27aa4)
+![screencapture-mohamed-adel0-github-io-Project-Clothes-DEPI-2025-01-25-05_06_03](https://github.com/user-attachments/assets/b059c0eb-d049-43fc-b452-1a1fe7a37c1c)
+
 
 Here, the chat with the bot has been activated
 ![screencapture-mohamed-adel0-github-io-Project-Clothes-DEPI-2025-01-25-05_06_03](https://github.com/user-attachments/assets/1dff0ccf-433f-4feb-9c3f-21935c9a35c5)
